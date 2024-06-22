@@ -1,0 +1,46 @@
+.all-product__img {
+    width: 155px !important;
+    height: 110px !important;
+    object-fit: cover;
+  }
+
+  .btn-danger{
+    font-size: .8rem;
+    background: rgb(215, 59, 59);
+  }
+  .btn-danger:hover{
+    font-size: .8rem;
+    background: rgb(214, 36, 36);
+  }
+
+  @media only screen and (max-width: 576px) {
+    .all-product__img {
+      width: 120px !important;
+      height: 80px !important;
+      object-fit: cover;
+    }
+
+    .btn-danger{
+      font-size: .6rem;
+      background: rgb(215, 59, 59);
+    }
+    .btn-danger:hover{
+      font-size: .6rem;
+      background: rgb(214, 36, 36);
+    }
+    .head .head__tr th{
+      font-size: .6rem;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    .head .head__tr th{
+      font-size: .5rem;
+    }
+    .btn-danger{
+      font-size: .5rem;
+      background: rgb(215, 59, 59);
+      padding: 2px 5px;
+    }
+
+  }

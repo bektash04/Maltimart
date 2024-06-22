@@ -1,0 +1,78 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background: var(--primary-color);
+}
+.mart-logo .mart-text{
+    color: #fff;
+}
+
+.footer__text {
+  line-height: 30px;
+  color: aliceblue;
+}
+.footer__quick-links ul li {
+  background: transparent !important;
+}
+
+.footer__quick-links ul li a {
+  color: aliceblue;
+}
+
+.quick__links-title {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.footer__contact li {
+  color: aliceblue;
+}
+
+.footer__contact li p {
+  color: aliceblue;
+  font-size: 0.9rem;
+}
+.footer__contact li span {
+  font-size: 1.2rem;
+}
+
+.footer__copyright {
+  color: rgb(195, 202, 207);
+  font-size: 0.9rem;
+  margin-top: 40px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+  .footer__quick-links {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .logo .mart-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+  }
+
+  .footer__text {
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer__contact {
+    align-items: center;
+    margin-top: -10px;
+  }
+  .logo{
+position: relative;
+  }
+.mart-logo .mart-text{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+}
